@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=3 uid="uid://bjn8886wrpmtp"]
+
+[ext_resource type="Script" uid="uid://1kvb4ism81lt" path="res://wip_select.gd" id="1_me6b8"]
+[ext_resource type="Texture2D" uid="uid://6x7i3o5tyors" path="res://text logos/Untitled296_20260516000609.png" id="1_wpm3l"]
+[ext_resource type="Texture2D" uid="uid://dsdyapsl82tns" path="res://text logos/Untitled294_20260517160328.png" id="2_me6b8"]
+
+[node name="WIP_select" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_me6b8")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(579, 323.00003)
+scale = Vector2(0.598, 0.605)
+texture = ExtResource("1_wpm3l")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 122.0
+offset_top = 246.0
+offset_right = 544.0
+offset_bottom = 407.0
+texture = ExtResource("2_me6b8")
+expand_mode = 1

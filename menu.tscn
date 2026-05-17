@@ -1,12 +1,14 @@
-[gd_scene load_steps=8 format=3 uid="uid://tv7ni6mltojr"]
+[gd_scene load_steps=10 format=3 uid="uid://tv7ni6mltojr"]
 
 [ext_resource type="Texture2D" uid="uid://cxwwmw6jo87hr" path="res://text logos/Untitled292_20260515023211.png" id="1_4hy44"]
 [ext_resource type="Script" uid="uid://cn523njdxuham" path="res://menu.gd" id="1_ecwwl"]
 [ext_resource type="Texture2D" uid="uid://6x7i3o5tyors" path="res://text logos/Untitled296_20260516000609.png" id="1_ytr4m"]
 [ext_resource type="Script" uid="uid://dj7yn4ihry60m" path="res://amberglenn_2.gd" id="3_kk3ma"]
 [ext_resource type="Texture2D" uid="uid://ds2v51xhsne2t" path="res://text logos/Untitled294_20260516001509.png" id="3_ytr4m"]
+[ext_resource type="Script" uid="uid://cupalgh6pwrr3" path="res://isabeaulevito_2.gd" id="4_kk3ma"]
 [ext_resource type="Texture2D" uid="uid://dnemb0yk4h2ti" path="res://text logos/Untitled294_20260516001614.png" id="4_l48gv"]
 [ext_resource type="Texture2D" uid="uid://cvachrxhob53s" path="res://text logos/Untitled294_20260516001547.png" id="5_ecwwl"]
+[ext_resource type="Script" uid="uid://cnxathj2tco4x" path="res://iliamalinin_2.gd" id="5_nrnbx"]
 
 [node name="alysaliu" type="Control"]
 layout_mode = 3
@@ -24,28 +26,30 @@ texture = ExtResource("1_ytr4m")
 
 [node name="amberglenn2" type="Button" parent="."]
 layout_mode = 0
-offset_left = 42.0
-offset_top = 267.0
-offset_right = 156.0
-offset_bottom = 318.0
+offset_left = 53.0
+offset_top = 274.0
+offset_right = 146.0
+offset_bottom = 306.0
 flat = true
 script = ExtResource("3_kk3ma")
 
 [node name="isabeaulevito2" type="Button" parent="."]
 layout_mode = 0
-offset_left = 45.0
-offset_top = 322.0
-offset_right = 191.0
-offset_bottom = 370.0
+offset_left = 49.0
+offset_top = 311.0
+offset_right = 188.0
+offset_bottom = 349.0
 flat = true
+script = ExtResource("4_kk3ma")
 
 [node name="iliamalinin2" type="Button" parent="."]
 layout_mode = 0
-offset_left = 43.0
-offset_top = 377.0
-offset_right = 182.0
-offset_bottom = 435.0
+offset_left = 45.0
+offset_top = 355.0
+offset_right = 163.0
+offset_bottom = 391.0
 flat = true
+script = ExtResource("5_nrnbx")
 
 [node name="jasonbrown" type="TextureRect" parent="."]
 layout_mode = 0
